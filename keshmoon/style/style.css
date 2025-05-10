@@ -8,10 +8,19 @@
     height: 654px;
     position: relative;
 } */
+ .nav__logo{
+    display: flex;
+ }
 .search-bar input{
-    width: 300px;
-    padding: 0.5rem 1rem;
-    border: 1px solid #ccc;
+       width: 100%;  
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    height: 46px;
+    border-radius: 50px;
+    background-color: #F5F5F5;
+    color: #424242;
+    line-height: 46px;
+    padding: 0 50px;
     border-radius: 20px;
 }
 .icons{
@@ -82,12 +91,42 @@ header div{
     unicode-bidi: isolate;
 }
 .hero-content button{
+    position: absolute;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: 0px;
+    bottom: 190px;
+    left: 160px;
     margin-top: 1rem;
-    padding: 0.6rem 1.2rem;
-    font-size: 0.9rem;
-    background-color: white;
-    border: 1px solid #000;
     cursor: pointer;
+    padding: 0 5px;
+    max-width: 90%;
+    height: 80px;
+    line-height: 80px;
+    font-weight: bold;
+    width: 400px;
+    font-size: 24px;
+    color: white;
+    background-color: #1ebc8b;
+    border-color: #1ebc8b;
+}
+.homa__values_title--background{
+  
+}
+.home__values_title{
+    position: absolute;
+    top: 2px;
+    right: 88px;
+    font-size: 18px;
+    letter-spacing: -0.24px;
+    line-height: 53px;
+    font-weight: bold;
+    color: #424242;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    height: 51px;
 }
 div h2{
     margin: 50px;
