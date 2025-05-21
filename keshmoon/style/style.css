@@ -65,17 +65,15 @@ header div{
     background-position: center;
 }
 .hero-content{
-    position: absolute;
-    top: 170px;
-    bottom: 10px;
-    left: 10px;
     padding: 1.5rem;
     border-radius: 10px;
     max-width: 40%;
     color: white;
 }
 .hero-content h1{
-    
+    position: absolute;
+    top: 181px;
+    left: 118px;
     font-size: 40px;
     font-weight: bold;
     line-height: 50px;
@@ -83,6 +81,10 @@ header div{
     color: white;
 }
 .hero-content p{
+    position: absolute;
+    top: 260px;
+    left: 149px;
+    width: 23%;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -92,6 +94,7 @@ header div{
 }
 .hero-content button{
     position: absolute;
+    top: 400px;
     justify-content: center;
     box-sizing: border-box;
     border-radius: 50px;
@@ -111,13 +114,91 @@ header div{
     background-color: #1ebc8b;
     border-color: #1ebc8b;
 }
-.homa__values_title--background{
-  
-}
-.home__values_title{
+.home__values_img-1{
     position: absolute;
-    top: 2px;
-    right: 88px;
+    top: 35px;
+    right: 80px;
+}
+.home__values_img-2{
+    position: absolute;
+    top: 35px;
+    right: 73px;
+}
+.home__values_img-3{
+    position: absolute;
+    top: 35px;
+    right: 73px;
+}
+.home__values_img-4{
+    position: absolute;
+    top: 35px;
+    right: 190px;
+}
+.home__values_img-5{
+    position: absolute;
+    top: 35px;
+    right: 180px;
+}
+.home__values_title-1{
+    position: absolute;
+    top: 32px;
+    right: 99px;
+    font-size: 18px;
+    letter-spacing: -0.24px;
+    line-height: 53px;
+    font-weight: bold;
+    color: #424242;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    height: 51px;
+}
+.home__values_title-2{
+     position: absolute;
+    top: 32px;
+    right: 99px;
+    font-size: 18px;
+    letter-spacing: -0.24px;
+    line-height: 53px;
+    font-weight: bold;
+    color: #424242;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    height: 51px;
+}
+.home__values_title-3{
+     position: absolute;
+    top: 32px;
+    right: 110px;
+    font-size: 18px;
+    letter-spacing: -0.24px;
+    line-height: 53px;
+    font-weight: bold;
+    color: #424242;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    height: 51px;
+}
+.home__values_title-4{
+    position: absolute;
+    top: 32px;
+    right: 220px;
+    font-size: 18px;
+    letter-spacing: -0.24px;
+    line-height: 53px;
+    font-weight: bold;
+    color: #424242;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    height: 51px;
+}
+.home__values_title-5{
+    position: absolute;
+    top: 32px;
+    right: 220px;
     font-size: 18px;
     letter-spacing: -0.24px;
     line-height: 53px;
@@ -129,13 +210,74 @@ header div{
     height: 51px;
 }
 .home__values_item-p{
-    font-size: 17px;
-    line-height: 25px;
-    color: #2b2b2b;
-    margin-top: 15px;
-    margin-bottom: 0;
-    max-height: 180px;
+    position: absolute;
+    top: 101px;
+    right: 80px;
+    width: 66%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fafafa;
+    margin: 0 0 10px;
+    margin-right: auto;
+    text-align: right;
+    max-width: 350px;
     overflow: hidden;
+}
+.home__values_item-p-1{
+    position: absolute;
+    top: 107px;
+    right: 76px;
+    width: 66%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fafafa;
+    margin: 0 0 10px;
+    margin-right: auto;
+    text-align: right;
+    max-width: 350px;
+    overflow: hidden;  
+}
+.home__values_item-p-2{
+     position: absolute;
+    top: 107px;
+    right: 76px;
+    width: 66%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fafafa;
+    margin: 0 0 10px;
+    margin-right: auto;
+    text-align: right;
+    max-width: 350px;
+    overflow: hidden;  
+}
+.home__values_item-p-3{
+    position: absolute;
+    top: 109px;
+    right: 191px;
+    width: 44%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fafafa;
+    margin: 0 0 10px;
+    margin-right: auto;
+    text-align: right;
+    max-width: 350px;
+    overflow: hidden;  
+}
+.home__values_item-p-4{
+    position: absolute;
+    top: 131px;
+    right: 189px;
+    width: 44%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fafafa;
+    margin: 0 0 10px;
+    margin-right: auto;
+    text-align: right;
+    max-width: 350px;
+    overflow: hidden;  
 }
 div h2{
     margin: 50px;
