@@ -1,0 +1,22 @@
+
+$listgroupColor: #F39700;
+$direction: rtl;
+
+*{
+    direction: $direction;
+    font-family: vazirmatn fd;
+}
+#news-detail{
+    // background-color: $bgcolor;
+}
+.container-2{
+    background-color: rgb(206, 206, 206);
+}
+.listtitle{
+    background-color: #F39700;
+    color: white;
+    border-color: #F39700;
+}
+.list-bg{
+    background-color: #e8e8e8!important;
+}

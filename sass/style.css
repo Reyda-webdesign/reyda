@@ -1,0 +1,18 @@
+* {
+  direction: rtl;
+  font-family: vazirmatn fd;
+}
+
+.container-2 {
+  background-color: rgb(206, 206, 206);
+}
+
+.listtitle {
+  background-color: #F39700;
+  color: white;
+  border-color: #F39700;
+}
+
+.list-bg {
+  background-color: #e8e8e8 !important;
+}/*# sourceMappingURL=style.css.map */
