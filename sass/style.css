@@ -16,3 +16,22 @@
 .list-bg {
   background-color: #e8e8e8 !important;
 }/*# sourceMappingURL=style.css.map */
+footer{
+margin-top: 30px;
+width: 100%;
+background-color: #03203e;
+color: white;
+padding: 50px;
+}
+footer h6{
+  border-bottom: 1px solid white;
+}
+footer a{
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-size: smaller;
+}
+.text-center{
+  margin: 30px;
+}
